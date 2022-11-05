@@ -91,25 +91,6 @@ footer {
     flex: 0 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html {
     height: 100%;
 }
@@ -145,11 +126,11 @@ body {
     box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
     box-sizing: border-box;
     left: 50%;
-    padding: 5vmin;
+    padding: 2vmin;
     position: fixed;
     text-align: center;
     top: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -40%);
 }
 
 h1 {
@@ -190,7 +171,19 @@ h1 {
 }
 
 .inf {
-    color: red;
+    color: black;
     margin-top: 50px;
     font-size: 25px;
+}
+
+.meh img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.content img {
+    width: 65%;
+    height: 65%;
 }
